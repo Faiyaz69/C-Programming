@@ -5,9 +5,9 @@ int main()
 
     printf("\t\t\tSUM OF ODD NUMBERS\n\n\n");
 
-    printf("enter start number");
+    printf("Enter start number :");
     scanf("%d",&start_num);
-    printf("enter end number");
+    printf("Enter end number :");
     scanf("%d",&end_num);
 
     if(start_num>end_num){
