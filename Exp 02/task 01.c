@@ -14,3 +14,10 @@ else{printf("%d is odd", num);
 return 0;
 
 }
+
+/* 
+			 *** Even Odd Finder *** 
+    
+Enter Number: 21
+21 is odd
+*/
