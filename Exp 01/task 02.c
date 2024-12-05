@@ -15,3 +15,13 @@ int main()
     avg>=50?printf("YOU ARE ELIGIBLE"):printf("YOU ARE NOT ELIGIBLE");
     return 0;
 }
+
+/* 
+OUTPUT
++++ Student Eligibility Calculator +++
+Enter physics marks: 95
+Enter chemistry marks: 95
+Enter maths marks: 80
+PCM Average = 90.00
+You are eligible for admission.
+*/
