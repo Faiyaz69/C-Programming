@@ -1,19 +1,30 @@
+/*
+    Expt. No : 3
+    Title : WAP to design a menu driven caculator using switch and goto    
+
+
+    Name: Faiyaz Shah
+    Class & Div: ECS-E
+    UIN: 241S044
+ */
+// designing a menu driven calculator
 #include <stdio.h>
 
 int main() {
     float num1, num2, result;
     int mod_result;
     char operator;
-
-    printf("\t\t\t *** Calculator *** \n\n\n");
-    printf("\t\t Enter an operation: \n\n\n");
-    printf("\t\t\t + : Addition \n\n");
-    printf("\t\t\t - : Subtraction \n\n");
-    printf("\t\t\t * : Multiplication \n\n");
-    printf("\t\t\t / : Division \n\n");
-    printf("\t\t\t %% : Modulus \n\n");
+// printing menu 
+    printf("\t\t\t *** Calculator *** \n\n");
+    printf("\t\t Enter an operation: \n\n");
+    printf("\t\t\t + : Addition \n");
+    printf("\t\t\t - : Subtraction \n");
+    printf("\t\t\t * : Multiplication \n");
+    printf("\t\t\t / : Division \n");
+    printf("\t\t\t %% : Modulus \n");
 
 repeat:
+// fetching input
     printf("Enter first operand: ");
     scanf("%f", &num1);
     printf("Enter second operand: ");
@@ -62,8 +73,40 @@ repeat:
         printf("Thank you for using the calculator.\n");
         return 0;
     }
-    printf("\n");
+        printf("\n");
     goto repeat;
 
     return 0; 
 }
+
+    /*
+    OUTPUT
+    			 *** Calculator *** 
+
+		 Enter an operation: 
+
+			 + : Addition 
+			 - : Subtraction 
+			 * : Multiplication 
+			 / : Division 
+			 % : Modulus 
+Enter first operand: 1
+Enter second operand: 2
+Enter an operation: +
+1.0 + 2.0 = 3.0
+Continue (Y/N): y
+
+Enter first operand: 2
+Enter second operand: 3
+Enter an operation: *
+2.0 * 3.0 = 6.0
+Continue (Y/N): y
+
+Enter first operand: 3
+Enter second operand: 3
+Enter an operation: /
+3.0 / 3.0 = 1.0
+Continue (Y/N): n
+Thank you for using the calculator.
+    */
+     
